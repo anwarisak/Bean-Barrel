@@ -10,7 +10,7 @@ const Hero = () => {
         </h1>
         <span className="text-[#57595B] md:text-2xl text-3xl my-5 font-thin px-10 text-center">
           Small-batch roasted beans, crafted by baristas who actually care what
-          ends up in your cup.
+          ends up in your cup
         </span>
         <ReactTyped
           className="uppercase md:text-2xl text-2xl"
