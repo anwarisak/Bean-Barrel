@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100..900&display=swap");
+
 @import "tailwindcss";
 
-body{
+body {
   background-color: #000300;
+  font-family: "Exo 2", sans-serif;
 }
