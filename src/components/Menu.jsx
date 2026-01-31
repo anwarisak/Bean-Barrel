@@ -25,7 +25,13 @@ const Menu = () => {
       <h1 className="text-5xl md:text-4xl py-10 uppercase font-bold text-[#57595B]">
         Menu Lists
       </h1>
-
+      <div className="flex justify-center">
+        {menus.length === 0 && (
+          <p className="text-sm md:text-2xl py-10 uppercase font-bold text-[#57595B]">
+            no product Found
+          </p>
+        )}
+      </div>
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 md:grid-cols-4 gap-6">
         {menus.map((menu) => (
           <div className="px-3">
