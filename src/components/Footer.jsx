@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="max-w-full mx-auto px-12 py-16 text-gray-300 bg-black grid lg:grid-cols-3">
+    <div className="max-w-full mx-auto px-8 py-16 text-gray-300 bg-black grid lg:grid-cols-3">
       <div className="lg:px-8">
         <SiCoffeescript color="#57595B" size={30} />
         <p className="py-8">
